@@ -39,6 +39,7 @@ export class leftPanel {
         let variableDataTypeForm = document.getElementById("variable-data-type");
 
         
+
         variableDataTypeForm.addEventListener("input", (e) => {
             let dataType = variableDataTypeForm.value;
             if (dataType == "Number") {
